@@ -1,0 +1,8 @@
+# Training-only deps (the inference agent ai/python/rl_agent.py stays dependency-free).
+# CPU torch is plenty for a [64,64] MLP; install the CUDA build only if you have a GPU.
+torch>=2.0
+stable-baselines3>=2.2
+gymnasium>=0.29
+numpy>=1.24
+tqdm>=4.65
+rich>=13.0
